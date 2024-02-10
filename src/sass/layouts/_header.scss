@@ -1,0 +1,16 @@
+.header {
+  padding: 20px 0px 50px 0px;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__title {
+  color: $color-text;
+  font-size: 2.1rem;
+  font-weight: 500;
+  @extend %font-montserrat-500;
+}

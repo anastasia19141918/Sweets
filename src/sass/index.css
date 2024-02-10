@@ -40,8 +40,195 @@ li {
   list-style: none;
 }
 
-body {
+.gallery__title, .sweets-title__title-big, body {
   font-family: "Montserrat700", Verdana, sans-serif;
+}
+
+.gallery__text, .sweets-title__button-text, .sweets-title__text, .sweets-title__title-small, .header__text {
+  font-family: "Montserrat400", Verdana, sans-serif;
+}
+
+.button, .gallery__prace, .header__title {
+  font-family: "Montserrat500", Verdana, sans-serif;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1180px;
+}
+
+.header {
+  padding: 20px 0px 50px 0px;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__title {
+  color: #FFFFFF;
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+
+.background {
+  background-image: url("../../src/img/bg_header.jpg");
+  background-position: -300px -90px;
+}
+
+.header__items {
+  display: flex;
+  flex-direction: row;
+  gap: 0 20px;
+}
+
+.header__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.header__icon {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+}
+.header__icon_navigator {
+  background-image: url("../../src/cvg/Icon__nav.svg");
+}
+.header__icon_telephone {
+  background-image: url("../../src/cvg/icon__telef.svg");
+}
+
+.header__text {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #FFFFFF;
+}
+
+.adress {
+  width: 145px;
+  height: 36px;
+}
+
+.telephone-text-big {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+}
+
+.sweets-title__wrapper {
+  padding: 85px 0px 450px 0px;
+}
+
+.sweets-title__title-small {
+  width: 132px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #F2F6FA;
+  border-radius: 5px;
+  color: #2E363E;
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+}
+
+.sweets-title__title-big {
+  width: 600px;
+  color: #FFFFFF;
+  font-size: 4.8rem;
+  line-height: 6rem;
+}
+
+.sweets-title__text {
+  width: 544px;
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
+.sweets-title__button {
+  display: flex;
+  flex-direction: row;
+  gap: 0 20px;
+}
+
+.sweets-title__button-text {
+  width: 210px;
+  height: 48px;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+.gallery {
+  padding: 30px 0px 0px 0px;
+}
+
+.gallery__subtitle {
+  margin-bottom: 70px;
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 6rem;
+  text-align: center;
+}
+
+.gallery__itemns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 20px;
+}
+
+.gallery__itemn {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #F2F6FA;
+}
+
+.gallery__img {
+  width: 380px;
+  height: 245px;
+  margin-bottom: 30px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.gallery__desc {
+  padding: 0 20px 60px 30px;
+}
+
+.gallery__title {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
+.gallery__text {
+  width: 220px;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #2E363E;
+}
+
+.gallery__prace {
+  margin-bottom: 15px;
+  color: #434B53;
+}
+
+.button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  background-color: #FED84C;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: #2E363E;
+  cursor: pointer;
+  border: none;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,12 @@
+.button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  background-color: $color-button;
+  @extend %font-montserrat-500;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: $color-title;
+
+  cursor: pointer;
+  border: none;
+}

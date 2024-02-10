@@ -1,0 +1,47 @@
+.sweets-title__wrapper {
+  padding: 85px 0px 450px 0px;
+}
+
+.sweets-title__title-small {
+  width: 132px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: $color-button-small;
+  border-radius: 5px;
+  color: $color-title;
+  @extend %font-montserrat-400;
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+}
+
+.sweets-title__title-big {
+  width: 600px;
+  @extend %font-montserrat-700;
+  color: $color-text;
+  font-size: 4.8rem;
+  line-height: 6.0rem;
+}
+
+.sweets-title__text {
+  width: 544px;
+  color: $color-text;
+  @extend %font-montserrat-400;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+}
+
+.sweets-title__button {
+  display: flex;
+  flex-direction: row;
+  gap: 0 20px;
+}
+
+.sweets-title__button-text {
+  width: 210px;
+  height: 48px;
+  color: $color-text;
+  @extend %font-montserrat-400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
