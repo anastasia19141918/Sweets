@@ -1,0 +1,42 @@
+.telephone {
+  position: relative;
+  background-color: $color-header;
+  background-image: url('../../src/cvg/phone_top.png');
+  background-repeat: no-repeat;
+}
+
+.wrapper__telephone {
+  padding-top: 320px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px 30px;
+}
+
+
+.telephone__img {
+  width: 950px;
+  height: 834px;
+}
+
+.telephone__desc {
+  width: 320px;
+  padding-top: 100px;
+}
+
+.telephone__button__desk {
+  width: 250px;
+}
+
+.button__text {
+  color:$color-text;
+}
+
+.button__text_big {
+  @extend %font-montserrat-500;
+  font-size: 3.0rem;
+}
+
+.button__text_small {
+  @extend %font-montserrat-400;
+  font-size: 2.1rem;
+}

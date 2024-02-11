@@ -2,17 +2,8 @@
   padding: 85px 0px 450px 0px;
 }
 
-.sweets-title__title-small {
+.sweets-title_button__desk {
   width: 132px;
-  padding: 10px;
-  margin-bottom: 20px;
-  text-align: center;
-  background-color: $color-button-small;
-  border-radius: 5px;
-  color: $color-title;
-  @extend %font-montserrat-400;
-  font-size: 1.8rem;
-  line-height: 1.6rem;
 }
 
 .sweets-title__title-big {

@@ -10,3 +10,15 @@
   cursor: pointer;
   border: none;
 }
+
+.button__desk {
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: $color-button-small;
+  border-radius: 5px;
+  color: $color-title;
+  @extend %font-montserrat-400;
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+}
