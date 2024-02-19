@@ -44,11 +44,11 @@ li {
   font-family: "Montserrat700", Verdana, sans-serif;
 }
 
-.button__desk, .button__text_small, .gallery__text, .sweets-title__button-text, .sweets-title__text, .header__text {
+.button__desk, .consultation__surname, .consultation__item, .button__text_small, .gallery__text, .sweets-title__button-text, .sweets-title__text, .header__text {
   font-family: "Montserrat400", Verdana, sans-serif;
 }
 
-.button, .button__text_big, .gallery__prace, .header__title {
+.button, .consultation__name, .consultation__except, .button__text_big, .gallery__prace, .header__title {
   font-family: "Montserrat500", Verdana, sans-serif;
 }
 
@@ -252,8 +252,90 @@ li {
   font-size: 2.1rem;
 }
 
+.consultation {
+  padding: 100px 0px 50px 0px;
+}
+
+.consultation__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0 20px;
+}
+
+.consultation__desc {
+  padding: 50px 0px 0px 0px;
+}
+
+.button__desk {
+  width: 191px;
+}
+
+.consultation__except {
+  width: 514px;
+  margin: 0 0 20px 0;
+  font-size: 4.8rem;
+  line-height: 40px;
+}
+
+.consultation__text {
+  width: 440px;
+  padding-left: 0;
+  margin: 0 0 50px 0;
+}
+
+.consultation__item {
+  display: flex;
+  gap: 0 15px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  line-height: 27px;
+}
+
+.consultation__list {
+  display: block;
+  width: 20px;
+  height: 10px;
+  margin-top: 15px;
+  border-radius: 100%;
+  background-color: #5D6AFB;
+}
+
+.consultation__img {
+  position: relative;
+}
+
+.consultation__aftor {
+  position: absolute;
+  margin-left: 50rem;
+  margin-top: 60rem;
+}
+
+.consultation__name {
+  padding: 15px;
+  margin-bottom: 3px;
+  line-height: 29px;
+  font-size: 2.4rem;
+  color: #FFFFFF;
+  border-radius: 5px;
+  background-color: #2E363E;
+  transform: skew(-10deg, 0);
+}
+
+.consultation__surname {
+  padding: 15px;
+  width: 150px;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 21px;
+  font-size: 1.8rem;
+  color: #2E363E;
+  border-radius: 5px;
+  background-color: #F2F6FA;
+  transform: skew(-10deg, 0);
+}
+
 .button {
-  padding: 15px 30px;
+  padding: 25px 40px;
   border-radius: 8px;
   background-color: #FED84C;
   font-size: 1.8rem;
@@ -264,7 +346,7 @@ li {
 }
 
 .button__desk {
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 20px;
   text-align: center;
   background-color: #F2F6FA;

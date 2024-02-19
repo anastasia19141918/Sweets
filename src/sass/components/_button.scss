@@ -1,5 +1,5 @@
 .button {
-  padding: 15px 30px;
+  padding: 25px 40px;
   border-radius: 8px;
   background-color: $color-button;
   @extend %font-montserrat-500;
@@ -12,7 +12,7 @@
 }
 
 .button__desk {
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 20px;
   text-align: center;
   background-color: $color-button-small;
@@ -22,3 +22,4 @@
   font-size: 1.8rem;
   line-height: 1.6rem;
 }
+

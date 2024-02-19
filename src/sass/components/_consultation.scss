@@ -1,0 +1,88 @@
+.consultation {
+  padding: 100px 0px 50px 0px;
+}
+
+.consultation__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap:0 20px;
+}
+
+.consultation__desc {
+  padding: 50px 0px 0px 0px;
+}
+
+.button__desk {
+  width: 191px;
+}
+
+.consultation__except {
+  width: 514px;
+  margin: 0 0 20px 0;
+  
+  @extend %font-montserrat-500;
+  font-size: 4.8rem;
+  line-height: 40px;
+}
+
+.consultation__text {
+  width: 440px;
+  padding-left: 0;
+  margin: 0 0 50px 0;
+}
+
+.consultation__item {
+  display: flex;
+  gap: 0 15px;
+  margin-bottom: 20px;
+
+  @extend %font-montserrat-400;
+  font-size: 1.8rem;
+  line-height: 27px;
+}
+
+.consultation__list {
+  display: block;
+  width: 20px;
+  height: 10px;
+  margin-top: 15px;
+  border-radius: 100%;
+  background-color: $color-circle;
+}
+
+.consultation__img {
+  position: relative;
+}
+
+.consultation__aftor {
+  position: absolute;
+  margin-left: 50rem;
+  margin-top: 60rem;
+}
+
+.consultation__name {
+  padding: 15px;
+  margin-bottom: 3px;
+  @extend %font-montserrat-500;
+  line-height: 29px;
+  font-size: 2.4rem;
+  color: $color-text;
+  border-radius: 5px;
+  background-color: $color-title;
+  transform: skew(-10deg, 0);
+}
+
+.consultation__surname {
+  padding: 15px;
+  width: 150px;
+  margin-left: 20px;
+  text-align: center;
+  @extend %font-montserrat-400;
+  line-height: 21px;
+  font-size: 1.8rem;
+  color: $color-title;
+  border-radius: 5px;
+  background-color: $color-button-small;
+  transform: skew(-10deg, 0);
+}
+
