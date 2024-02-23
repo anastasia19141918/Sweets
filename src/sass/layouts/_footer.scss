@@ -1,0 +1,30 @@
+.footer {
+  padding: 0px 0px 30px 0px;
+  background-color: $color-header;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction:column;
+}
+
+.footer__policy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+  gap:0 20px;
+  @extend %font-montserrat-400;
+  font-size: 1.4rem;
+  list-style: 18px;
+  color: $color-footer-telephone;
+}
+
+.footer__license {
+  margin: 0;
+  text-align: center;
+  @extend %font-montserrat-400;
+  font-size: 1.4rem;
+  list-style: 18px;
+  color: $color-footer-telephone;
+}

@@ -44,7 +44,7 @@ li {
   font-family: "Montserrat700", Verdana, sans-serif;
 }
 
-.button__desk, .data__official, .data__text, .reviews__city, .reviews__btn, .reviews__text, .reviews__title, .consultation__surname, .consultation__item, .button__text_small, .gallery__text, .sweets-title__button-text, .sweets-title__text, .header__text {
+.button__desk, .data__official, .data__text, .reviews__city, .reviews__btn, .reviews__text, .reviews__title, .consultation__surname, .consultation__item, .button__text_small, .gallery__text, .sweets-title__button-text, .sweets-title__text, .header__text, .footer__license, .footer__policy {
   font-family: "Montserrat400", Verdana, sans-serif;
 }
 
@@ -71,6 +71,35 @@ li {
   color: #FFFFFF;
   font-size: 2.1rem;
   font-weight: 500;
+}
+
+.footer {
+  padding: 0px 0px 30px 0px;
+  background-color: #081130;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__policy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+  gap: 0 20px;
+  font-size: 1.4rem;
+  list-style: 18px;
+  color: #7E868E;
+}
+
+.footer__license {
+  margin: 0;
+  text-align: center;
+  font-size: 1.4rem;
+  list-style: 18px;
+  color: #7E868E;
 }
 
 .background {
@@ -501,7 +530,7 @@ li {
 }
 
 .data {
-  padding: 80px 0px 80px 0px;
+  padding: 80px 0px 70px 0px;
   background-color: #081130;
   background-image: url("../../src/cvg/phone_top.png");
   background-repeat: no-repeat;
