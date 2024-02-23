@@ -1,0 +1,36 @@
+.pictures {
+  padding: 70px 0px 0px 0px;
+}
+
+.pictures__title {
+  margin: 0 0 5px 0;
+  @extend %font-montserrat-500;
+  font-weight: 500;
+  font-size: 3.0rem;
+  line-height: 60px;
+  text-align: center;
+  color: $color-title;
+}
+
+.pictures__text {
+  margin-bottom: 20px;
+  @extend %font-montserrat-500;
+  font-weight: 400;
+  font-size: 2.0rem;
+  line-height: 34px;
+  text-align: center;
+  color: $color-title;
+}
+
+.pictures__gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 90px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.pictures__item {
+  width: 438px;
+  height: 310px;
+}
