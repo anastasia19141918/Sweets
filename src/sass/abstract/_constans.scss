@@ -11,10 +11,19 @@ $color-reviews-city:#A6AEB6;
 
 
 
-$content-width: 1180px;
-
 $content-wrapper: 1180px;
 
+//adaptive 
 
-
-
+$media-desctop: 1500px;
+$media-laptop: 1350px;
+$media-laptop-small: 1250px;
+$media-notebook: 1226px;
+$media-notebook-small: 1000px;
+$media-tablet-big: 890px;
+$media-tablet-small: 846px;
+$media-tablet: 768px;
+$media-mobale-big: 670px;
+$media-mobale: 580px;
+$media-mobale-small: 500px;
+$media-phone: 380px;

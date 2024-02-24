@@ -1,15 +1,56 @@
 .consultation {
   padding: 100px 0px 50px 0px;
+  @include media-desctop {
+    padding: 100px 0px 5px 0px;
+  }
+  @include media-notebook {
+    padding: 100px 0px 190px 0px;
+  }
+  @include media-notebook-small {
+    padding: 50px 0px 39px 0px;
+  }
+  @include media-tablet-big {
+    padding: 50px 0px 59px 0px;
+  }
+  @include media-tablet {
+    padding: 50px 0px 67px 0px;
+  }
+  @include media-mobale {
+    padding: 50px 0px 234px 0px;
+  }
+  @include media-phone {
+    padding: 30px 0px 234px 0px;
+  }
+  @include media-phone {
+    padding: 30px 0px 200px 0px;
+  }
 }
 
 .consultation__wrapper {
   display: flex;
   flex-direction: row;
   gap:0 20px;
+  @include media-notebook-small {
+    flex-direction: column;
+    padding: 0 40px;
+    gap: 70px;
+  }
+  @include media-phone {
+    padding: 0 10px;
+  }
 }
 
 .consultation__desc {
   padding: 50px 0px 0px 0px;
+  @include media-notebook {
+    padding: 50px 30px 0px 30px;
+  }
+  @include media-notebook-small {
+    padding: 50px 100px 0px 100px;
+  }
+  @include media-mobale-big {
+    padding: 50px 0px 0px 0px;
+  }
 }
 
 .button__desk {
@@ -21,14 +62,27 @@
   margin: 0 0 20px 0;
   
   @extend %font-montserrat-500;
-  font-size: 4.8rem;
-  line-height: 40px;
+    font-size: 4.8rem;
+    line-height: 40px;
+  @include media-mobale-small {
+    width: 414px;
+    font-size: 3.8rem;
+    line-height: 40px;
+  }
+  @include media-phone {
+    width: 350px;
+    font-size: 3.0rem;
+    line-height: 40px;
+  }
 }
 
 .consultation__text {
   width: 440px;
   padding-left: 0;
   margin: 0 0 50px 0;
+  @include media-phone {
+    width: 340px;
+  }
 }
 
 .consultation__item {
@@ -52,12 +106,41 @@
 
 .consultation__img {
   position: relative;
+  @include media-notebook {
+    width: 400px;
+    height: 600px;
+  }
+  @include media-mobale {
+    width: 400px;
+    height: 580px;
+    margin: auto;
+  }
+  @include media-phone {
+    width: 300px;
+    height: 490px;
+  }
 }
 
 .consultation__aftor {
   position: absolute;
   margin-left: 50rem;
   margin-top: 60rem;
+  @include media-tablet-big {
+    margin-left: 40rem;
+    margin-top: 80rem;
+  }
+  @include media-mobale-big {
+    margin-left: 28rem;
+    margin-top: 65rem;
+  }
+  @include media-mobale {
+    margin-left: 0rem;
+    margin-top: 130rem;
+  }
+  @include media-phone {
+    margin-left: 2rem;
+    margin-top: 125rem;
+  }
 }
 
 .consultation__name {

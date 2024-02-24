@@ -1,5 +1,35 @@
 .pictures {
   padding: 70px 0px 0px 0px;
+  @include media-desctop {
+    padding: 15px 0px 0px 0px;
+  }
+  @include media-notebook {
+    padding: 15px 0px 36px 0px;
+  }
+  @include media-notebook-small {
+    padding: 15px 0px 0px 0px;
+  }
+  @include media-tablet-big {
+    padding: 15px 0px 30px 0px;
+  }
+  @include media-tablet-small {
+    padding: 15px 0px 39px 0px;
+  }
+  @include media-tablet {
+    padding: 50px 0px 75px 0px;
+  }
+  @include media-mobale-big {
+    padding: 50px 0px 78px 0px;
+  }
+  @include media-mobale {
+    padding: 50px 0px 42px 0px;
+  }
+  @include media-mobale-small {
+    padding: 50px 0px 48px 0px;
+  }
+  @include media-phone {
+    padding: 50px 10px 51px 10px
+  }
 }
 
 .pictures__title {
@@ -10,6 +40,12 @@
   line-height: 60px;
   text-align: center;
   color: $color-title;
+  @include media-mobale-big {
+    margin:  0 0 15px 0;
+    text-align: left;
+    line-height: 50px;
+    font-size: 5.0rem;
+  }
 }
 
 .pictures__text {
@@ -20,6 +56,12 @@
   line-height: 34px;
   text-align: center;
   color: $color-title;
+  @include media-mobale-big {
+    margin:  0 0 15px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 3.0rem;
+  }
 }
 
 .pictures__gallery {
@@ -28,9 +70,59 @@
   padding: 30px 90px;
   margin-bottom: 20px;
   gap: 10px;
+  @include media-desctop {
+    padding: 30px 5px;
+  }
+
+  @include media-laptop {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 22px 50px;
+    gap: 40px;
+  }
+  @include media-notebook {
+    justify-items: center;
+  }
+  @include media-tablet-small {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @include media-mobale-big {
+    justify-items:left;
+  }
+  @include media-phone {
+    padding: 30px 10px;
+  }
+}
+
+.pictures__item_media {
+  @include media-laptop {
+    display: none;
+  }
 }
 
 .pictures__item {
   width: 438px;
   height: 310px;
+  @include media-laptop {
+    width: 550px;
+    height: 380px;
+  }
+  @include media-notebook {
+    width: 438px;
+    height: 310px;
+  }
+  @include media-notebook-small {
+    width: 338px;
+    height: 210px;
+  }
+  @include media-tablet {
+    width: 480px;
+    height: 285px;
+  }
+  @include media-mobale-small {
+    width: 380px;
+    height: 245px;
+  }
+  @include media-phone {
+    width: 320px;
+  }
 }

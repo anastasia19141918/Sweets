@@ -1,4 +1,11 @@
 .wrapper {
   margin: auto;
   max-width: $content-wrapper;
+  @include media-notebook-small {
+    flex-direction: column;
+    padding: 0 40px;
+  }
+  @include media-phone {
+    padding: 0 0;
+  }
 }

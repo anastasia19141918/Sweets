@@ -5,6 +5,10 @@
   margin-top: 700px;
   background-image: url('../../src/cvg/phone_bottom.png');
   background-repeat: no-repeat;
+  @include media-notebook-small {
+    display: none;
+  }
+  
 }
 
 .reviews__cloud-button {
@@ -14,4 +18,10 @@
   margin-top: 1100px;
   background-image: url('../../src/cvg/phone_bottom.png');
   background-repeat: no-repeat;
+  @include media-desctop {
+    margin-top: 1000px;
+  }
+  @include media-mobale {
+    display: none;
+  }
 }

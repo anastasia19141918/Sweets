@@ -4,9 +4,17 @@
   background-color: $color-header;
   background-image: url('../../src/cvg/phone_top.png');
   background-repeat: no-repeat;
+  @include media-notebook-small {
+    padding: 0px 0px 250px 0px;
+  }
+  @include media-mobale {
+    background-image: none;
+    padding: 0px 0px 50px 0px;
+  }
 }
 
 .reviews__title {
+  margin: 0;
   padding-top: 35.0rem;
   padding-bottom: 5.0rem;
   text-align: center;
@@ -15,6 +23,17 @@
   font-size: 4.8rem;
   line-height: 60px;
   color: $color-text;
+  @include media-mobale {
+    padding-top: 5rem;
+    text-align: left;
+    font-size: 4.0rem;
+  }
+  @include media-phone {
+    padding: 5rem 1rem 1rem 1rem;
+    text-align: left;
+    font-size: 3.0rem;
+    line-height: 40px;
+  }
 }
 
 //carusel start
@@ -26,6 +45,30 @@
   flex-direction: row;
   gap: 0 50px;
   overflow: hidden;
+  @include media-laptop-small {
+    margin-left: -96rem;
+  }
+  @include media-notebook-small {
+    margin-left: -55rem;
+  }
+  @include media-tablet-big {
+    margin-left: -60rem;
+  }
+  @include media-tablet-small {
+    margin-left: -58rem;
+  }
+  @include media-mobale-big {
+    margin-left: -62rem;
+  }
+  @include media-mobale {
+    margin-left: -58rem;
+  }
+  @include media-mobale-small {
+    margin-left: -50rem;
+  }
+  @include media-phone {
+    margin-left: -36rem;
+  }
 }
 
 .reviews__item {
@@ -36,6 +79,40 @@
   padding: 70px;
   background-color: $color-button-small;
   opacity: 0.5; 
+  @include media-notebook-small {
+    width: 700px;
+    padding: 80px;
+    flex-direction: column;
+    gap: 70px;
+  }
+  @include media-tablet-small {
+    width: 450px;
+  }
+  @include media-mobale-big {
+    width: 400px;
+  }
+  @include media-mobale-big {
+    width: 440px;
+  }
+  @include media-mobale {
+   width: 400px;
+   gap: 90px;
+  }
+
+  @include media-mobale-small {
+    width: 400px;
+    padding: 80px 30px;
+    gap: 100px;
+  }
+  @include media-phone {
+    width: 270px;
+  }
+}
+
+.reviews__avatar_media {
+  @include media-notebook-small {
+    display: none;
+  }
 }
 
 .reviews__item__active {
@@ -53,6 +130,16 @@
   font-size: 3.0rem;
   line-height: 42px;
   color: $color-title;
+  @include media-mobale-big {
+    font-size: 2.5rem;
+    line-height: 35px;
+  }
+  @include media-mobale {
+    width: 440px;
+  }
+  @include media-phone {
+    display: none;
+  }
 }
 
 .reviews__text {
@@ -64,6 +151,16 @@
   line-height: 25px;
   color: $color-title;
   overflow: hidden;
+  @include media-mobale-big {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+  @include media-mobale {
+    width: 440px;
+  }
+  @include media-phone {
+    width: 350px;
+  }
 }
 
 .reviews__btn {
